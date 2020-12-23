@@ -1,0 +1,33 @@
+.icon-container {
+  height: 5em;
+  width: 8em;
+  margin-top: 2em;
+  margin-left: 1em;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+input {
+  background: transparent;
+  border: none;
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  text-align: center;
+  justify-content: center;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+:focus {
+  outline: 1px solid #eee;
+  box-shadow: 0 0 5px #eee;
+  user-select: none;
+  backdrop-filter: blur(2px);
+}
