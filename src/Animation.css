@@ -23,6 +23,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  color: #fff;
 }
 
 .main {
@@ -46,6 +47,7 @@
   font-size: 1.5em;
   font-weight: bold;
   border-radius: 40%;
+  color: #fff;
 }
 
 .ring {

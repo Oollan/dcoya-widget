@@ -11,6 +11,10 @@
   cursor: pointer;
 }
 
+.icon-title {
+  color: #fff;
+}
+
 input {
   background: transparent;
   border: none;

@@ -7,21 +7,21 @@ import "./Icons.css";
 export const ChangeColor = ({ func }) => (
   <div tabIndex="-1" onClick={() => func()} className="icon-container">
     <CgColorBucket size={"3em"} />
-    Change Color
+    <div className="icon-title">Change Color</div>
   </div>
 );
 
 export const ShowAnimation = ({ func }) => (
   <div tabIndex="-1" onClick={() => func()} className="icon-container">
     <ImSpinner9 size={"3em"} />
-    Show Animation
+    <div className="icon-title">Show Animation</div>
   </div>
 );
 
 export const StopAnimation = ({ func }) => (
   <div tabIndex="-1" onClick={() => func()} className="icon-container">
     <ImSpinner8 size={"3em"} />
-    Stop Animation
+    <div className="icon-title">Stop Animation</div>
   </div>
 );
 
